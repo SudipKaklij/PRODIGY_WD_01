@@ -26,5 +26,9 @@ Event Listener: The scroll event listener triggers the changeNavbarColor functio
 
 THE OUTPUT:
 ![image](https://github.com/user-attachments/assets/1ab2195c-6231-49c5-aaf9-051c74657e91)
+![image](https://github.com/user-attachments/assets/07d44ae0-1a90-4856-a23d-2ead95c0318d)
+![image](https://github.com/user-attachments/assets/e790597d-6866-481e-8a82-271fbf02ce34)
+
+
 
 
