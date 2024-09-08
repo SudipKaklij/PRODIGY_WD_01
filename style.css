@@ -1,0 +1,63 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* Navbar Styles */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 0;
+    transition: background-color 0.3s ease;
+    z-index: 1000;
+}
+
+ul.menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+ul.menu li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+ul.menu li a:hover {
+    background-color: #555;
+    color: #ffcc00;
+    border-radius: 5px;
+}
+
+/* Section Styling */
+.section {
+    height: 100vh;
+    padding-top: 80px;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+#home { background-color: #1abc9c; }
+#about { background-color: #3498db; }
+#services { background-color: #9b59b6; }
+#contact { background-color: #e74c3c; }
+
+/* Section-specific nav background colors */
+nav.home-section { background-color: #1abc9c; }
+nav.about-section { background-color: #3498db; }
+nav.services-section { background-color: #9b59b6; }
+nav.contact-section { background-color: #e74c3c; }
