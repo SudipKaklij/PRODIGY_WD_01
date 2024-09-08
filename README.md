@@ -23,3 +23,8 @@ The JavaScript adds scroll-based interactivity to the navigation menu. Here's th
 Section Detection: As the user scrolls, the script checks which section is currently in view. This is done by comparing the scroll position (window.scrollY) with each section’s top offset (section.offsetTop).
 Color Change: Based on the section in view, the navigation bar’s background color is updated. The sectionColors object stores the color for each section, and the background color of the navbar is dynamically set using navbar.style.backgroundColor.
 Event Listener: The scroll event listener triggers the changeNavbarColor function, ensuring that the navbar’s background color updates as the user scrolls through the page.
+
+THE OUTPUT:
+![image](https://github.com/user-attachments/assets/1ab2195c-6231-49c5-aaf9-051c74657e91)
+
+
